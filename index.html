@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yash Raghuwanshi — Software Engineer & ML Builder</title>
+<meta name="description" content="Portfolio of Yash Raghuwanshi — Computer Engineering student building software, ML, and web tools end-to-end." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="nav-logo" href="#top">YR<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="prompt-line"><span class="prompt">yash@portfolio:~$</span> whoami</p>
+      <h1>Yash Raghuwanshi</h1>
+      <p class="role">Software Engineer &amp; ML Builder</p>
+      <p class="hero-desc">
+        2nd-year B.E. Computer Engineering student building practical software and ML
+        systems end-to-end — from database design and competitive programming to
+        deployed, working products.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-eyebrow">01 — About</p>
+      <h2 class="section-title">Background</h2>
+      <div class="about-grid reveal">
+        <p class="about-text">
+          I'm a Computer Engineering student at Army Institute of Technology (AIT), Pune,
+          with a CGPA of 8.51. I like building things that produce real, working output —
+          not demos — whether that's a database-backed system, a machine learning model
+          wrapped in a usable interface, or a small tool that solves an everyday problem.
+          I'm currently focused on software engineering and machine learning roles, and
+          spend my time outside coursework writing competitive programming solutions in
+          C++, working through SQL and PL/SQL problems, and shipping small full-stack
+          projects.
+        </p>
+        <dl class="about-facts">
+          <div><dt>Education</dt><dd>B.E. Computer Engineering, AIT Pune</dd></div>
+          <div><dt>CGPA</dt><dd>8.51</dd></div>
+          <div><dt>Focus</dt><dd>Software Engineering &amp; Machine Learning</dd></div>
+          <div><dt>Based in</dt><dd>Pune, India</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="section-eyebrow">02 — Projects</p>
+      <h2 class="section-title">Selected work</h2>
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <h3>ReelPredict</h3>
+          <p>
+            A Streamlit web app that estimates short-form video engagement before you post —
+            upload a clip and get a predicted performance score from a Gradient Boosting
+            Regressor (R² ≈ 0.72) trained on video features.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>Streamlit</li><li>Scikit-learn</li><li>Gradient Boosting</li>
+          </ul>
+          <a class="card-link" href="https://github.com/yashraghuwa-prog/reelpredict" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Student Grade &amp; Performance Management System</h3>
+          <p>
+            A relational, database-backed system for recording, tracking, and analyzing
+            student academic performance — with normalized schema design and SQL/PL-SQL
+            driven reporting.
+          </p>
+          <ul class="tags">
+            <li>SQL</li><li>PL/SQL</li><li>Database Design</li>
+          </ul>
+          <a class="card-link" href="https://github.com/yashraghuwa-prog/student-grade-management-system" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Real-Time Chat Application</h3>
+          <p>
+            A real-time messaging application enabling instant two-way communication between
+            users, built around an event-driven, low-latency message pipeline.
+          </p>
+          <ul class="tags">
+            <li>JavaScript</li><li>WebSockets</li><li>Real-time Systems</li>
+          </ul>
+          <a class="card-link" href="https://github.com/yashraghuwa-prog/realtime-chat-app" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Unit &amp; Currency Converter</h3>
+          <p>
+            A single-page converter for length, weight, volume, temperature, and live
+            currency exchange rates — built for the Digital Heroes developer trial task
+            and deployed free on Vercel.
+          </p>
+          <ul class="tags">
+            <li>HTML/CSS/JS</li><li>REST API</li><li>Vercel</li>
+          </ul>
+          <a class="card-link" href="https://github.com/yashraghuwa-prog/unit-currency-converter" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="section-eyebrow">03 — Skills</p>
+      <h2 class="section-title">Toolbox</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="tags"><li>C++</li><li>Python</li><li>SQL / PL-SQL</li><li>JavaScript</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>ML &amp; Data</h3>
+          <ul class="tags"><li>Scikit-learn</li><li>Gradient Boosting</li><li>Pandas</li><li>Streamlit</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <ul class="tags"><li>HTML / CSS</li><li>Vanilla JS</li><li>React / Next.js basics</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Platforms</h3>
+          <ul class="tags"><li>Git / GitHub</li><li>MySQL</li><li>Vercel</li><li>VS Code</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <p class="section-eyebrow">04 — Certifications</p>
+      <h2 class="section-title">Credentials</h2>
+      <div class="cert-grid reveal">
+        <div class="cert-card">
+          <h3>IBM Machine Learning Professional Certificate</h3>
+          <p>Coursera</p>
+        </div>
+        <div class="cert-card">
+          <h3>Microsoft Azure AI Fundamentals</h3>
+          <p>AI-900</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="section-eyebrow">05 — Contact</p>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="contact-desc reveal">
+        Open to software engineering and ML internships / opportunities. The fastest way
+        to reach me is email.
+      </p>
+      <div class="contact-actions reveal">
+        <a class="btn btn-primary" href="mailto:yashraghuwa@gmail.com">yashraghuwa@gmail.com</a>
+        <a class="btn btn-ghost" href="https://github.com/yashraghuwa-prog" target="_blank" rel="noopener noreferrer">GitHub →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Yash Raghuwanshi · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
